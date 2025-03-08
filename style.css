@@ -80,17 +80,22 @@
 }
 
 .words {
-  position: absolute;
-  left: 10%;
-  width: 80%;
-  height: 14%;
-  background-color: #fdb7ba;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    font-size: 12px;
+    height: 14%;
+    background-color: #fdb7ba;
+    align-items: center;
+    justify-content: center;
 }
 
 .words.line1 {
   top: 15%;
   width: 20%;
-  height: 7%;
+  height: 12%;
+  color: #a93a48;
 }
 
 .words.line2 {
